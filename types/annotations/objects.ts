@@ -10,5 +10,6 @@ const profile = {
   }
 };
 
+// Examples of object destructuring with annotations
 const { age }: { age: number } = profile;
 const { coords: { lat, lng } }: { coords: { lat: number, lng: number } } = profile;
